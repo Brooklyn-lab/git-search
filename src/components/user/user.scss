@@ -1,0 +1,31 @@
+.user {
+  padding: 50px 0;
+
+  &__header {
+    margin-bottom: 40px;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 30px;
+  }
+
+  &__avatar {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    margin: 0 25px 0 0;
+  }
+
+  &__about-text {
+    font-size: 21px;
+    line-height: 100%;
+    color: #777;
+
+    &_description {
+      text-align: center;
+    }
+  }
+}

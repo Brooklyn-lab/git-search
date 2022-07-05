@@ -1,0 +1,40 @@
+.repos {
+  margin-top: 30px;
+
+  &__link {
+    display: block;
+    color: #777;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 20px 0 #00000038;
+    border-radius: 8px;
+    padding: 10px;
+
+    @media screen and (max-width: 576px) {
+      flex-direction: column;
+    }
+  }
+
+  &__name {
+    font-size: 21px;
+    line-height: 100%;
+    word-break: break-all;
+  }
+
+  &__text {
+    font-size: 16px;
+    line-height: 100%;
+  }
+
+  &__about {
+    margin-left: 20px;
+  }
+}
