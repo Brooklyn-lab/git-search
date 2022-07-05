@@ -1,4 +1,4 @@
 export enum ROUTES {
-	Main = '/',
-	User = '/user/:id',
+	Main = '/git-search/',
+	User = '/git-search/user/:id',
 }
